@@ -180,8 +180,8 @@
 <div class="topo-titulo">
     <span id="tituloTopo">GESTÃO FINANCEIRA — JAN/2026</span>
     <div class="controles-topo">
-        <button class="btn-system" onclick="exportarDados()">📥 Exportar</button>
-        <button class="btn-system" onclick="document.getElementById('inputImport').click()">📤 Importar</button>
+        <button class="btn-system" onclick="exportarDados()">📤 Exportar</button>
+        <button class="btn-system" onclick="document.getElementById('inputImport').click()">📥 Importar</button>
         <input type="file" id="inputImport" style="display:none" onchange="importarDados(event)">
         
         <select id="mes" onchange="mudarMes()" style="height: 32px; border-radius: 8px;">
